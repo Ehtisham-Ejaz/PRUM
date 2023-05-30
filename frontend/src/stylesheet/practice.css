@@ -1,0 +1,36 @@
+.mainDash {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .div123,
+  .div234 {
+    background-color: #ccc;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .div123 {
+    margin-right: 10px;
+  }
+  
+  .div234 {
+    margin-left: 10px;
+  }
+  
+  .mainDash::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 3%;
+    height: 1px;
+    border-top: 3px dotted black;
+    transform: translateY(-50%);
+  }
+  
+  
