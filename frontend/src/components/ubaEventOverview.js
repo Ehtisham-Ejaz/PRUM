@@ -16,7 +16,6 @@ import { faArrowDownToLine } from "@fortawesome/free-solid-svg-icons";
 import i3 from "../assets/i3.jpg";
 import hesham from "../assets/hesham.JPG";
 import { useLocation, Navigate } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -174,6 +173,7 @@ const UbaEventOverview = () => {
                   </h5>
                   <UbaTable userData={userData.normal_logs} />
                 </div>
+
               </div>
             </div>
           </div>

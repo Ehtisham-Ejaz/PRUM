@@ -1,0 +1,57 @@
+.realtimetable {
+    background-image: url('../assets/linear3.png');
+    background-size: cover;
+    background-position: center;
+    /* width: 95%; */
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 83vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.realtimetable::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+
+}
+
+.realtimetable::-webkit-scrollbar-thumb {
+    background-color: rgba(98, 143, 211, 0.562);
+    border-radius: 10px;
+}
+
+.realtimetable::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.realtimecount {
+    background-image: url('../assets/linear3.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.realtimeContainer1 {
+    width: calc(100% - 7%);
+    margin-left: 7%;
+}
+
+
+.realtimeContainer0 {
+    /* background: linear-gradient(to top right, rgba(22, 24, 59, 0.84), rgba(32, 41, 94, 0.78), rgba(49, 61, 142, 0.65), rgba(33, 33, 86, 0.71)); */
+    /* overflow-y: auto; */
+    /* background: linear-gradient(to top right, rgba(22, 24, 59, 1), rgba(32, 41, 94, 1), rgba(49, 61, 142, 1), rgba(33, 33, 86, 1)); */
+
+    background-image: url('../assets/linearbackground.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+

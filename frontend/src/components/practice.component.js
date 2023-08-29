@@ -1,181 +1,207 @@
-import React from 'react';
-import { FlowAnalysisGraph } from '@ant-design/graphs';
-import download from '../assets/desktop.png'; 
+import React, { useEffect,useState } from "react";
+import ApexCharts from "react-apexcharts"; // Make sure to install the 'react-apexcharts' package
+import axios from "axios";
 
-const Practice = ({data_dic}) => {
+function ChartComponent() {
+  // const data = generateDayWiseTimeSeries(
+  //   new Date("22 Apr 2017").getTime(),
+  //   115,
+  //   {
+  //     min: 30,
+  //     max: 90,
+  //   }
+  // );
 
-  //const data_dic = [{anomaly1:{'time':'12345','event':4545,'category':'process termination','value':'how are you.thanku'}},{anomaly2:{'time':'12345','event':4545,'category':'process termination','value':'how are you.thanku'}}]
+  const [data, setChartData] = useState([]);
 
-  const generateData = () => {
-    const nodes = [];
-    const edges = [];
-    let index = 0;
-  
-    // Create the source node
-    const sourceNode = {
-      id: '0',
-      value: {
-        items: [
-          {
-            icon: download,
-          },
-        ],
-      },
-    };
-  
-    nodes.push(sourceNode);
-  
-    // Create nodes for each item in the data array
-    for (const dataItem of data_dic) {
-      const key = Object.keys(dataItem)[0];
-      const value = dataItem[key];
-      const result = value.value ? (value.value.length > 32 ? `${value.value.slice(0, 32)}\n${value.value.slice(32)}` : value.value) : '';
+    useEffect(() => {
+      async function fetchData() {
+        try {
+          const response = await axios.get("http://localhost:5000/getdata");
+          const transformedData = transformData(response.data["we1775srv"].count.eventperday);
+          
+          setChartData(transformedData);
+          
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      }
 
-      //const result = value.value.length > 32 ? `${value.value.slice(0, 32)}\n${value.value.slice(32)}` : value.value;
-      console.log('category',result)
-  
-      const node = {
-        id: `${index + 1}`,
-        value: {
-          title: value.taskCategory,
-          items: [
-            {
-              text: `Time: ${value.timestamp}`,
-            },
-            {
-              text: `Event: ${value.eventId}`,
-            },
-            {
-              text: `Value: ${result}`,
-            },
-          ],
-        },
-      };
-  
-      nodes.push(node);
-  
-      edges.push({
-        source: '0',
-        target: `${index + 1}`,
-      });
-  
-      index++;
+      fetchData();
+    }, []);
+
+    function transformData(data) {
+      const transformed = [];
+
+      for (let i = 0; i < data.date.length; i++) {
+        transformed.push([data.date[i], data.total[i]]);
+      }
+      console.log("transformed", transformed);
+      transformed.sort((a, b) => a[0].localeCompare(b[0]));
+      return transformed;
     }
-  
-    return {
-      nodes,
-      edges,
-    };
-  };
-  
-  
-  
-    
-  const data = generateData();
-  
-  const config = {
-    data,
-    nodeCfg: {
-      size: [260, 35],
-      customContent: (item, group, cfg) => {
-        const { startY } = cfg;
-        const { icon, text } = item;
 
-        if (icon) {
-          group?.addShape('image', {
-            attrs: {
-              x: 50,
-              y: startY,
-              width: 68,
-              height: 70,
-              img: icon,
-            },
-            name: `image-${Math.random()}`,
-          });
-        }
-      
-        if (text) {
-          const textShape = group?.addShape('text', {
-            attrs: {
-              x: 20,
-              y: startY + 10,
-              text,
-              fill: '#000',
-              fontSize: 12,
-              textAlign: 'left',
-              textBaseline: 'middle',
-              maxWidth: 100, // Adjust the maximum width as needed
-              whiteSpace: 'break-word', // Add this line
-            },
-            name: `text-${Math.random()}`,
-          });
-    
-        }
-  
-        // Row height
-        return 20;
-      },
-      nodeStateStyles: {
-        hover: {
-          lineWidth: 0,
-        },
-      },
-      style: (cfg) => {
-        if (cfg.id === '0') {
-          return {
-            fill: 'transparent',
-            stroke: 'transparent',
-          };
-        } else {
-          return {
-            fill: '#E6EAF1', // Custom fill color for nodes other than '0'
-            stroke: '#B2BED5', // Custom stroke color for nodes other than '0'
-          };
-        }
+  var options1 = {
+    chart: {
+      id: "chart2",
+      type: "area",
+      height: 230,
+      foreColor: "#ccc",
+      toolbar: {
+        autoSelected: "pan",
+        show: false,
       },
     },
-    edgeCfg: {
-      style: (edge) => {
-        if (edge.source === '0') {
-          return {
-            stroke: 'brown',
-            lineWidth: 7,
-            strokeOpacity: 0.5,
-          };
-        } else {
-          return {
-            stroke: '#5ae859', // Custom stroke color for edges other than originating from '0'
-            lineWidth: 7,
-            strokeOpacity: 0.5,
-          };
-        }
-      },
-      edgeStateStyles: {
-        hover: {
-          stroke: 'red',
-          lineWidth: 4,
+    colors: ["#00BAEC"],
+    stroke: {
+      width: 3,
+    },
+    grid: {
+      borderColor: "#555",
+      clipMarkers: false,
+      yaxis: {
+        lines: {
+          show: false,
         },
       },
     },
-    markerCfg: (cfg) => {
-      const { edges } = data;
-      return {
-        position: 'right',
-        show: edges.find((item) => item.source === cfg.id),
-      };
+    dataLabels: {
+      enabled: false,
     },
-    layout: {
-      type: 'circular',
-      radius: 260,
-      startAngle: Math.PI / -14, // Start from the top
-      endAngle: (Math.PI / -3) * 7, // End at the top (360 degrees)
+    fill: {
+      gradient: {
+        enabled: true,
+        opacityFrom: 0.55,
+        opacityTo: 0,
+      },
     },
-    behaviors: ['drag-canvas', 'zoom-canvas', 'drag-node'],
+    markers: {
+      size: 5,
+      colors: ["#000524"],
+      strokeColor: "#00BAEC",
+      strokeWidth: 3,
+    },
+    series: [
+      {
+        data: data,
+      },
+    ],
+    tooltip: {
+      theme: "dark",
+    },
+    xaxis: {
+      type: "datetime",
+    },
+    yaxis: {
+      min: 0,
+      tickAmount: 4,
+    },
   };
-  
+
+ var options2 = {
+   chart: {
+     id: "chart1",
+     height: 130,
+     type: "bar",
+     foreColor: "#ccc",
+     brush: {
+       target: "chart2",
+       enabled: true,
+     },
+     selection: {
+       enabled: true,
+       fill: {
+         color: "#fff",
+         opacity: 0.4,
+       },
+       xaxis: {
+         min: data.length > 0 ? data[0][0] : null, // First date in your data
+         max: data.length > 0 ? data[data.length - 1][0] : null, // Last date in your data
+       },
+     },
+   },
+   colors: ["#FF0080"],
+   series: [
+     {
+       data: data,
+     },
+   ],
+   stroke: {
+     width: 2,
+   },
+   grid: {
+     borderColor: "#444",
+   },
+   markers: {
+     size: 0,
+   },
+   xaxis: {
+     type: "datetime",
+     tooltip: {
+       enabled: false,
+     },
+   },
+   yaxis: {
+     tickAmount: 2,
+   },
+ };
+
+  useEffect(() => {
+    const chart1 = new ApexCharts(
+      document.querySelector("#chart-area"),
+      options1
+    );
+    chart1.render();
+
+    const chart2 = new ApexCharts(
+      document.querySelector("#chart-bar"),
+      options2
+    );
+    chart2.render();
+  }, []);
+
+  // function generateDayWiseTimeSeries(baseval, count, yrange) {
+  //   var i = 0;
+  //   var series = [];
+  //   while (i < count) {
+  //     var x = baseval;
+  //     var y =
+  //       Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+
+  //     series.push([x, y]);
+  //     baseval += 86400000;
+  //     i++;
+  //   }
+  //   return series;
+  // }
+
+  console.log("chartData:", data);
   return (
-    <FlowAnalysisGraph {...config} style={{ backgroundColor: 'transparent' }} />
-  );  
-};
+    <div id="wrapper">
+      <div id="chart-area">
+        
+          <ApexCharts
+            options={options1}
+            series={[{ data }]}
+            type="area"
+            height={230}
+          />
+       
+      </div>
+      <div id="chart-bar">
+       
+          <ApexCharts
+            options={options2}
+            series={[{ data }]}
+            type="bar"
+            height={130}
+          />
+      </div>
+      <a className="link" href="https://apexcharts.com?ref=codepen">
+        apexcharts.com
+      </a>
+    </div>
+  );
+}
 
-export default Practice;
+export default ChartComponent;

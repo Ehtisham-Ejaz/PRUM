@@ -55,7 +55,7 @@ const UbaTable = ({ userData }) => {
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({
       columns,
-      data: userData,
+      data: userData || logData,
     });
 
   return (

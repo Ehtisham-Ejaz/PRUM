@@ -40,16 +40,16 @@ def getuser():
 def getdata():
     try:
         # Get the username from the query parameters
-        username = request.args.get('username')
-        print(username)
+        # username = request.args.get('username')
+        # print(username)
         database_name = 'practice'
         client = MongoClient('mongodb://localhost:27017/')
         # Access the database
         db = client[database_name]
         # Access the collection
         collection = db['modelData']
-
-        result = list(collection.find({'user': username}))
+        print('here')
+        result = list(collection.find({'user': 'we1775srv'}))
 
         # Close the connection
         client.close()
