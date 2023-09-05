@@ -42,6 +42,7 @@
     "react-bootstrap": "^2.7.2",
     "react-chartjs-2": "^5.2.0",
     "react-custom-scrollbars": "^4.2.1",
+    "react-data-table-component": "^7.5.4",
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
     "react-gauge-chart": "^0.4.1",
@@ -58,6 +59,7 @@
     "recharts": "^2.4.3",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
+    "styled-components": "^6.0.7",
     "util": "^0.12.5",
     "victory": "^36.6.8",
     "web-vitals": "^2.1.4"

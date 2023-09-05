@@ -12,6 +12,7 @@ import UbaEventOverview from './components/ubaEventOverview';
 import UbaAnomalyTrend from './components/ubaAnomalyTrend';
 import RealTimeDetection from './components/realTimeDashboard';
 import MITREDashboard from './components/mitreDashboard';
+import ShowAnomalieslist from './components/showAnomalies';
 import Practice from './components/practice.component';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/prac" element={<Practice />}></Route>
         <Route path="/userpattern" element={<UbaUserPattern />}></Route>
         <Route path="/realtime" element={<RealTimeDetection />}></Route>
+        <Route path="/showanomalies" element={<ShowAnomalieslist />}></Route>
         <Route path="/mitre" element={<MITREDashboard />}></Route>
       </Routes>
     </Router>

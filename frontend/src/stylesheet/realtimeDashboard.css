@@ -50,8 +50,5 @@
     background-image: url('../assets/linearbackground.png');
     background-size: cover;
     background-position: center;
-   
+    height: auto;
 }
-
-
-
