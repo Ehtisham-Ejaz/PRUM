@@ -1,0 +1,333 @@
+{
+    "version": "4.4",
+    "name": "Windows Log Mapping",
+    "domain": "mitre-enterprise",
+    "description": "Mapping of Windows logs to MITRE ATT&CK techniques",
+    "techniques": [
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'Description': 'Windows Command Processor', 'IntegrityLevel': 'Medium', 'TerminalSessionId': '2', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '139368', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '139385', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Microsoft\u00ae C Runtime Library', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'Signature': 'Microsoft Corporation', 'FileVersion': '10.0.19041.685 (WinBuild.160101.0800)'}, 'opcode': 'Info', 'version': 3, 'record_id': '139398', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'Signature': 'Python Software Foundation', 'FileVersion': '3.9.2'}, 'opcode': 'Info', 'version': 3, 'record_id': '139399', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Microsoft\u00ae C Runtime Library', 'Signed': 'true', 'Product': 'Microsoft\u00ae Visual Studio\u00ae', 'FileVersion': '14.28.29334.0 built by: vcwrkspc', 'Signature': 'Microsoft Corporation'}, 'opcode': 'Info', 'version': 3, 'record_id': '139400', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'FileVersion': '3.9.2', 'Signature': 'Python Software Foundation'}, 'opcode': 'Info', 'version': 3, 'record_id': '139401', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1130",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'CreateKey'}, 'opcode': 'Info', 'version': 2, 'record_id': '139403', 'event_id': '12', 'task': 'Registry object added or deleted (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1130",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '139408', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Signed': 'true', 'Signature': 'Python Software Foundation'}, 'opcode': 'Info', 'version': 3, 'record_id': '139410', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'Description': 'Windows Command Processor', 'IntegrityLevel': 'Medium', 'TerminalSessionId': '2', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '139411', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'Signature': 'Python Software Foundation', 'FileVersion': '3.9.2'}, 'opcode': 'Info', 'version': 3, 'record_id': '139412', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'FileVersion': '3.9.2', 'Signature': 'Python Software Foundation'}, 'opcode': 'Info', 'version': 3, 'record_id': '139413', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Windows Command Processor', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '139535', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1112",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Registry Console Tool', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'FileVersion': '10.0.19041.1 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '139540', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '139936', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Windows Command Processor', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140083', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1112",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Registry Console Tool', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'IntegrityLevel': 'Medium', 'TerminalSessionId': '2', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'FileVersion': '10.0.19041.1 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140100', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Windows Command Processor', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'IntegrityLevel': 'Medium', 'TerminalSessionId': '2', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140479', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140484', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Microsoft\u00ae C Runtime Library', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.685 (WinBuild.160101.0800)', 'Signature': 'Microsoft Corporation'}, 'opcode': 'Info', 'version': 3, 'record_id': '140485', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'Signature': 'Python Software Foundation', 'FileVersion': '3.9.2'}, 'opcode': 'Info', 'version': 3, 'record_id': '140486', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Microsoft\u00ae C Runtime Library', 'Signed': 'true', 'Product': 'Microsoft\u00ae Visual Studio\u00ae', 'FileVersion': '14.28.29334.0 built by: vcwrkspc', 'Signature': 'Microsoft Corporation'}, 'opcode': 'Info', 'version': 3, 'record_id': '140487', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'FileVersion': '3.9.2', 'Signature': 'Python Software Foundation'}, 'opcode': 'Info', 'version': 3, 'record_id': '140488', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Signed': 'true', 'Signature': 'Python Software Foundation'}, 'opcode': 'Info', 'version': 3, 'record_id': '140489', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'Signature': 'Python Software Foundation', 'FileVersion': '3.9.2'}, 'opcode': 'Info', 'version': 3, 'record_id': '140490', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1073",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Python Software Foundation', 'Description': 'Python Core', 'Signed': 'true', 'Product': 'Python', 'Signature': 'Python Software Foundation', 'FileVersion': '3.9.2'}, 'opcode': 'Info', 'version': 3, 'record_id': '140491', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Windows Command Processor', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140497', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Windows Command Processor', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'IntegrityLevel': 'Medium', 'TerminalSessionId': '2', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.746 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140620', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1112",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'Description': 'Registry Console Tool', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.1 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '140625', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Description': 'MedussaLocker_Testcase1_Privilege_Escalation_CMSTPLua', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'Medium', 'Product': 'MedussaLocker_Testcase1_Privilege_Escalation_CMSTPLua', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'FileVersion': '1.0.0.0', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '141167', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1047",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-7f21-64c9-e403-000000000000}', 'Description': 'WMI Provider Host', 'TerminalSessionId': '0', 'IntegrityLevel': 'System', 'ParentUser': 'NT AUTHORITY\\\\SYSTEM', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.546 (WinBuild.160101.0800)', 'LogonId': '0x3e4'}, 'opcode': 'Info', 'version': 5, 'record_id': '143449', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1047",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-7f21-64c9-e403-000000000000}', 'Description': 'WMI Provider Host', 'IntegrityLevel': 'System', 'TerminalSessionId': '0', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'NT AUTHORITY\\\\SYSTEM', 'FileVersion': '10.0.19041.546 (WinBuild.160101.0800)', 'LogonId': '0x3e4'}, 'opcode': 'Info', 'version': 5, 'record_id': '128914', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1130",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'CreateKey'}, 'opcode': 'Info', 'version': 2, 'record_id': '130984', 'event_id': '12', 'task': 'Registry object added or deleted (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1053",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Task Scheduler COM API', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.1266 (WinBuild.160101.0800)', 'Signature': 'Microsoft Windows'}, 'opcode': 'Info', 'version': 3, 'record_id': '136176', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137106', 'task': 'Registry value set (rule: RegistryEvent)', 'event_id': '13', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137123', 'task': 'Registry value set (rule: RegistryEvent)', 'event_id': '13', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137138', 'task': 'Registry value set (rule: RegistryEvent)', 'event_id': '13', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137154', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137155', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137160', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137176', 'task': 'Registry value set (rule: RegistryEvent)', 'event_id': '13', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137177', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'DeleteValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137182', 'task': 'Registry object added or deleted (rule: RegistryEvent)', 'event_id': '12', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137187', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137189', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137191', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1547.010",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137240', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1547.010",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137241', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1547.010",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137242', 'task': 'Registry value set (rule: RegistryEvent)', 'event_id': '13', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137352', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137486', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'CreateKey'}, 'opcode': 'Info', 'version': 2, 'record_id': '137577', 'task': 'Registry object added or deleted (rule: RegistryEvent)', 'event_id': '12', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137578', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'SetValue'}, 'opcode': 'Info', 'version': 2, 'record_id': '137579', 'event_id': '13', 'task': 'Registry value set (rule: RegistryEvent)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1053",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Task Scheduler COM API', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.1266 (WinBuild.160101.0800)', 'Signature': 'Microsoft Windows'}, 'opcode': 'Info', 'version': 3, 'record_id': '137585', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1204",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Windows Security notification icon', 'LogonGuid': '{cb71a018-d182-64d0-d32d-6f0400000000}', 'IntegrityLevel': 'Medium', 'TerminalSessionId': '2', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'FileVersion': '10.0.19041.1 (WinBuild.160101.0800)', 'LogonId': '0x46f2dd3'}, 'opcode': 'Info', 'version': 5, 'record_id': '137661', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1053",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Task Scheduler COM API', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'Signature': 'Microsoft Windows', 'FileVersion': '10.0.19041.1266 (WinBuild.160101.0800)'}, 'opcode': 'Info', 'version': 3, 'record_id': '137815', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1059.001",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Elastic', 'Description': 'Winlogbeat ships Windows event logs to Elasticsearch or Logstash.', 'LogonGuid': '{cb71a018-d182-64d0-9c2d-6f0400000000}', 'TerminalSessionId': '2', 'IntegrityLevel': 'High', 'ParentUser': 'DESKTOP-PNQLS73\\\\windows-1', 'Product': 'Winlogbeat', 'FileVersion': '8.8.2', 'LogonId': '0x46f2d9c'}, 'opcode': 'Info', 'version': 5, 'record_id': '137983', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1047",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-7f21-64c9-e403-000000000000}', 'Description': 'WMI Provider Host', 'TerminalSessionId': '0', 'IntegrityLevel': 'System', 'ParentUser': 'NT AUTHORITY\\\\SYSTEM', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.546 (WinBuild.160101.0800)', 'LogonId': '0x3e4'}, 'opcode': 'Info', 'version': 5, 'record_id': '138163', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1047",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-7f21-64c9-e403-000000000000}', 'Description': 'WMI Provider Host', 'IntegrityLevel': 'System', 'TerminalSessionId': '0', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'NT AUTHORITY\\\\SYSTEM', 'FileVersion': '10.0.19041.546 (WinBuild.160101.0800)', 'LogonId': '0x3e4'}, 'opcode': 'Info', 'version': 5, 'record_id': '95110', 'event_id': '1', 'task': 'Process Create (rule: ProcessCreate)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'LogonGuid': '{cb71a018-7f20-64c9-e703-000000000000}', 'Description': 'Service Control Manager Configuration Tool', 'IntegrityLevel': 'System', 'TerminalSessionId': '0', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'NT AUTHORITY\\\\SYSTEM', 'FileVersion': '10.0.19041.1 (WinBuild.160101.0800)', 'LogonId': '0x3e7'}, 'opcode': 'Info', 'version': 5, 'record_id': '102761', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1053",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Task Scheduler COM API', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'FileVersion': '10.0.19041.1266 (WinBuild.160101.0800)', 'Signature': 'Microsoft Windows'}, 'opcode': 'Info', 'version': 3, 'record_id': '111436', 'task': 'Image loaded (rule: ImageLoad)', 'event_id': '7', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1053",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 6408}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'SignatureStatus': 'Valid', 'Company': 'Microsoft Corporation', 'Description': 'Task Scheduler COM API', 'Signed': 'true', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'Signature': 'Microsoft Windows', 'FileVersion': '10.0.19041.1266 (WinBuild.160101.0800)'}, 'opcode': 'Info', 'version': 3, 'record_id': '61988', 'event_id': '7', 'task': 'Image loaded (rule: ImageLoad)', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1543.003",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'Company': 'Microsoft Corporation', 'Description': 'Service Control Manager Configuration Tool', 'LogonGuid': '{cb71a018-7f20-64c9-e703-000000000000}', 'IntegrityLevel': 'System', 'TerminalSessionId': '0', 'Product': 'Microsoft\u00ae Windows\u00ae Operating System', 'ParentUser': 'NT AUTHORITY\\\\SYSTEM', 'FileVersion': '10.0.19041.1 (WinBuild.160101.0800)', 'LogonId': '0x3e7'}, 'opcode': 'Info', 'version': 5, 'record_id': '67034', 'task': 'Process Create (rule: ProcessCreate)', 'event_id': '1', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        },
+        {
+            "techniqueID": "T1130",
+            "color": "#FF5733",
+            "comment": "{'computer_name': 'DESKTOP-PNQLS73', 'process': {'pid': 116, 'thread': {'id': 7436}}, 'channel': 'Microsoft-Windows-Sysmon/Operational', 'event_data': {'EventType': 'CreateKey'}, 'opcode': 'Info', 'version': 2, 'record_id': '71694', 'task': 'Registry object added or deleted (rule: RegistryEvent)', 'event_id': '12', 'provider_guid': '{5770385f-c22a-43e0-bf4c-06f5698ffbd9}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Sysmon', 'user': {'identifier': 'S-1-5-18', 'domain': 'NT AUTHORITY', 'name': 'SYSTEM', 'type': 'User'}}"
+        }
+    ]
+}

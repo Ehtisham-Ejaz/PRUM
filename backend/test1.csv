@@ -1,0 +1,657 @@
+﻿timestamp,message,winlog
+2023-08-29T15:08:03.748Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13046', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:05.926Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13047', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:08.841Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13048', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:11.925Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13049', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:14.839Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13050', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:17.920Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13051', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:20.829Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 1532}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13052', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:24.355Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 1532}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13053', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:28.471Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13054', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:31.389Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13055', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:33.621Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13056', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:35.504Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13057', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:38.423Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13058', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:41.953Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13059', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:44.871Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13060', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:47.935Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13061', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:50.851Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13062', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:53.936Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13063', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:56.839Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13064', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:08:59.743Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13065', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:02.656Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13066', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:04.957Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13067', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:07.867Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13068', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:10.102Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13069', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:13.019Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13070', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:15.342Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13071', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:18.271Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13072', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:18.918Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13073', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:21.818Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13074', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:23.947Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13075', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:26.869Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13076', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:29.958Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13077', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:32.878Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 17424}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13078', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:35.966Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13079', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:38.877Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13080', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:41.270Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'SubjectLogonId': '0x439b7', 'TargetUserName': 'BT', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13081', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:44.197Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'error': {}, 'opcode': 'Info', 'record_id': '13082', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:46.463Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13083', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:49.372Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13084', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:51.667Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13085', 'task': 'User Account Management', 'event_id': '4798', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"
+2023-08-29T15:09:54.595Z,"A user's local group membership was enumerated.
+
+Subject:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+ Logon ID:  0x439B7
+
+User:
+ Security ID:  S-1-5-21-1544678396-1191205308-917643107-1002
+ Account Name:  BT
+ Account Domain:  DESKTOP-TKV9EGT
+
+Process Information:
+ Process ID:  0x2190
+ Process Name:  C:\Windows\explorer.exe","{'computer_name': 'DESKTOP-TKV9EGT', 'process': {'pid': 1436, 'thread': {'id': 21148}}, 'keywords': ['Audit Success'], 'logon': {'id': '0x439b7'}, 'channel': 'Security', 'event_data': {'CallerProcessId': '0x2190', 'SubjectUserName': 'BT', 'TargetSid': 'S-1-5-21-1544678396-1191205308-917643107-1002', 'SubjectDomainName': 'DESKTOP-TKV9EGT', 'TargetUserName': 'BT', 'SubjectLogonId': '0x439b7', 'TargetDomainName': 'DESKTOP-TKV9EGT', 'CallerProcessName': 'C:\\Windows\\explorer.exe', 'SubjectUserSid': 'S-1-5-21-1544678396-1191205308-917643107-1002'}, 'opcode': 'Info', 'error': {}, 'record_id': '13086', 'event_id': '4798', 'task': 'User Account Management', 'provider_guid': '{54849625-5478-4994-a5ba-3e3b0328c30d}', 'activity_id': '{f20743c2-d050-0004-3c44-07f250d0d901}', 'api': 'wineventlog', 'provider_name': 'Microsoft-Windows-Security-Auditing'}"

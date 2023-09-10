@@ -82,111 +82,17 @@ const ShowAnomalieslist = () => {
     const data = [
       {
         id: 1,
-        timestamp: "2023-09-01T11:05:06.000Z",
-        source: "Microsoft Windows",
-        eventid: 6441,
-        level: "Information",
-        taskCategory: "Logon",
-        message: "Account logon is detected",
-      },
-      {
-        id: 2,
-        timestamp: "2023-09-01T11:05:07.000Z",
-        source: "Microsoft Windows",
-        eventid: 4624,
-        level: "Information",
-        taskCategory: "Logon",
-        message: "An account failed to logon",
-      },
-      {
-        id: 3,
-        timestamp: "2023-09-01T11:05:08.000Z",
-        source: "Microsoft Windows",
-        eventid: 4625,
-        level: "Warning",
-        taskCategory: "Logon",
-        message: "An account was logged off",
-      },
-      {
-        id: 4,
-        timestamp: "2023-09-01T11:05:09.000Z",
-        source: "Microsoft Windows",
-        eventid: 4768,
-        level: "Information",
-        taskCategory: "Logon",
-        message: "A user account was created",
-      },
-      {
-        id: 5,
-        timestamp: "2023-09-01T11:05:10.000Z",
-        source: "Microsoft Windows",
-        eventid: 4769,
-        level: "Information",
-        taskCategory: "Logon",
-        message:
-          "A user account was deleted sadasdasdasdasd skdasjdiojas isadiahdia",
-      },
-      {
-        id: 4,
-        timestamp: "2023-09-01T11:05:09.000Z",
-        source: "Microsoft Windows",
-        eventid: 4768,
-        level: "Information",
-        taskCategory: "Logon",
-        message: "A user account was created",
-      },
-      {
-        id: 5,
-        timestamp: "2023-09-01T11:05:10.000Z",
-        source: "Microsoft Windows",
-        eventid: 4769,
-        level: "Information",
-        taskCategory: "Logon",
-        message:
-          "A user account was deleted sadasdasdasdasd skdasjdiojas isadiahdia",
-      },
-      {
-        id: 4,
-        timestamp: "2023-09-01T11:05:09.000Z",
-        source: "Microsoft Windows",
-        eventid: 4768,
-        level: "Information",
-        taskCategory: "Logon",
-        message: "A user account was created",
-      },
-      {
-        id: 5,
-        timestamp: "2023-09-01T11:05:10.000Z",
-        source: "Microsoft Windows",
-        eventid: 4769,
-        level: "Information",
-        taskCategory: "Logon",
-        message:
-          "A user account was deleted sadasdasdasdasd skdasjdiojas isadiahdia",
-      },
-      {
-        id: 4,
-        timestamp: "2023-09-01T11:05:09.000Z",
-        source: "Microsoft Windows",
-        eventid: 4768,
-        level: "Information",
-        taskCategory: "Logon",
-        message: "A user account was created",
-      },
-      {
-        id: 5,
-        timestamp: "2023-09-01T11:05:10.000Z",
-        source: "Microsoft Windows",
-        eventid: 4769,
-        level: "Information",
-        taskCategory: "Logon",
-        message:
-          "A user account was deleted sadasdasdasdasd skdasjdiojas isadiahdia",
+        timestamp: "",
+        source: "",
+        eventid: '',
+        level: "",
+        taskCategory: "",
+        message: "",
       },
     ];
 
-  const [name] = useState("Hesham");
-  const [userData, setuserData] = useState();
+  const [name] = useState("Husnain");
+  const [anomalies, setAnomalies] = useState();
 
   const location = useLocation();
   // const userData = location.state?.userData;
@@ -201,13 +107,12 @@ const ShowAnomalieslist = () => {
     }
   };
 
-  const getUser = async () => {
+  const getAnomalies = async () => {
     try {
-      const username = "we1775srv";
-      const response = await axios.get("http://localhost:5000/getdata");
-      console.log("response: ", response.data["we1775srv"].normal_logs);
-      setuserData(response.data["we1775srv"].normal_logs);
-      console.log("userData: ", userData);
+      const response = await axios.get("http://localhost:5000/lstm_testing");
+      console.log("response: ", response.data);
+      setAnomalies(response.data);
+      console.log("Anomalies: ", anomalies);
     } catch (error) {
       console.error("Error:", error);
       return null;
@@ -217,7 +122,7 @@ const ShowAnomalieslist = () => {
   useEffect(() => {
     console.log("useffect");
     setLogin();
-    getUser();
+    getAnomalies()
     console.log("useffect");
   }, []);
 
@@ -273,7 +178,18 @@ const ShowAnomalieslist = () => {
             <h5 className="text-light mb-0 mt-3 mb-3 fw-normal pt-3">
               Detected Anomalies
             </h5>
-            <DataTable
+            {anomalies ? (
+              <DataTable
+              columns={column}
+              data={anomalies}
+              selectableRows
+              fixedHeader
+              pagination
+              theme="dark"
+              
+            ></DataTable>
+            ): (
+              <DataTable
               columns={column}
               data={data}
               selectableRows
@@ -282,6 +198,8 @@ const ShowAnomalieslist = () => {
               theme="dark"
               
             ></DataTable>
+            )}
+            
           </div>
         </div>
       </div>

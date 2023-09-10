@@ -64,12 +64,12 @@ const MITREDashboard = () => {
     }
   };
 
-  const getUser = async () => {
+  const getMitreTechniques = async () => {
     try {
       const username = "we1775srv";
-      const response = await axios.get("http://localhost:5000/getdata");
-      console.log("response: ", response.data["we1775srv"].normal_logs);
-      setuserData(response.data["we1775srv"].normal_logs);
+      const response = await axios.get("http://localhost:5000/mitre");
+      console.log("response: ", response.data);
+      setuserData(response.data);
       console.log("userData: ", userData);
     } catch (error) {
       console.error("Error:", error);
@@ -80,7 +80,7 @@ const MITREDashboard = () => {
   useEffect(() => {
     console.log("useffect");
     setLogin();
-    getUser();
+    getMitreTechniques();
     console.log("useffect");
   }, []);
 

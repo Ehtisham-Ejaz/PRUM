@@ -6,7 +6,7 @@ import MainNav from "./mainNav";
 import RealTimeAreaGraph from "../charts/realtimeAreaGraph";
 import RealTimeDonut from "../charts/realTimeDonutChart";
 import RealTimeCountGraph from "../charts/realTimeLogsCountGraph";
-import UbaTable from "../charts/ubatable";
+import RealtimeTable from "../charts/realtimetable";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 import { faArrowDown, faSquare } from "@fortawesome/free-solid-svg-icons";
 import hesham from "../assets/hesham.JPG";
@@ -48,7 +48,7 @@ library.add(
 );
 
 const RealTimeDetection = () => {
-  const [name] = useState("Hesham");
+  const [name] = useState("Husnain");
   const [userData, setuserData] = useState();
 
     const location = useLocation();
@@ -68,10 +68,10 @@ const RealTimeDetection = () => {
 
     try {
       const username = 'we1775srv'
-      const response = await axios.get("http://localhost:5000/getdata");
-      console.log("response: ", response.data["we1775srv"].normal_logs);
-      setuserData(response.data["we1775srv"].normal_logs);
-      console.log('userData: ',userData)
+      const response = await axios.get("http://localhost:5000/realtime");
+      console.log("response: ", response);
+      setuserData(response.data);
+      console.log('userData: ',response.data)
     } catch (error) {
       console.error("Error:", error);
       return null;
@@ -155,7 +155,7 @@ const RealTimeDetection = () => {
             <h5 className="text-light mb-0 mt-3 fw-normal pt-1">
               Logs 
             </h5>
-            <UbaTable userData={userData} />
+            <RealtimeTable userData={userData} />
           </div>
         </div>
       </div>

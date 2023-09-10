@@ -19,32 +19,11 @@ const UbaTable = ({ userData }) => {
 
   const logData = [
     {
-      timestamp: "2023-05-21 10:30:00",
-      source: "Source A",
-      eventId: "123",
-      level: "Info",
-      taskCategory: "Category A",
-    },
-    {
-      timestamp: "2023-05-21 10:30:00",
-      source: "Source A",
-      eventId: "123",
-      level: "Info",
-      taskCategory: "Category A",
-    },
-    {
-      timestamp: "2023-05-21 10:30:00",
-      source: "Source A",
-      eventId: "123",
-      level: "Info",
-      taskCategory: "Category A",
-    },
-    {
-      timestamp: "2023-05-21 10:30:00",
-      source: "Source A",
-      eventId: "123",
-      level: "Info",
-      taskCategory: "Category A",
+      timestamp: "",
+      source: "",
+      eventId: "",
+      level: "",
+      taskCategory: "",
     },
     // Add more data objects as needed
   ];
